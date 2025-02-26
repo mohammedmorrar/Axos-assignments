@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Regestration form</title>
+    <hr>
+    </head>
+    <body>
+        <h1> <strong>Regestration Form:</strong></h1>
+        <form action="/process" method="post">
+            <div>
+                <label for=""> First Name*</label>
+                <input type="text" name=" First name " placeholder=" write your First name" id="First name" required> 
+            </div><br>
+            <div>
+                <label for="">Last name*</label>
+                <input type="text" name=" Last name " placeholder=" write your Last name" id="Last name" required> 
+            </div><br>
+            <div>
+                <label for="">Email*</label>
+                <input type="email" name=" Email" placeholder="Write your Email" id=" Email" required>
+            </div><br>
+            <div>
+                <label for="password">password*</label>
+                <input type="password" name="password" placeholder="password" id="Password" required>
+            </div><br>
+            <div>
+                <label for="confirm password">confirm password*</label>
+                <input type="confirm password" name="confirm password" id="confirm password"required>
+            </div><br>
+                <label for="birthday">birthday</label>
+                <input type="date" name="birthday" id="birthday">
+            <div><br>
+                <label for="">Gender: </label>
+                <label for="">Male</label>
+                <input type="radio" name="Gender" id="Gender"> 
+                <label for="">Female</label>
+                <input type="radio" name="Gender" id="Gender">
+            </div><br>
+                <label for="Text Area">A short describtion about myself:</label>
+                <br>
+                <textarea name="describtion" id="describtion"></textarea>
+            <div><br>
+                <label for="programming languagae">Favorite language</label>
+                <select>
+                    <option value="">HTML</option>
+                    <option value="">Java</option>
+                    <option value="">Python</option>
+            </div><br>
+                </select>
+            <div><br>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">Yes, i would like to recieve periodic email updates</label>
+            </div><br>
+                <input type="submit" value="Create Account">
+        <p>*Indicates a required field</p>
+        </form>
+    <hr>
+    </body>
+</html>
