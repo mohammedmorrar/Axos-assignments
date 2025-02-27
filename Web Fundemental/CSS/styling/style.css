@@ -1,0 +1,28 @@
+.body{
+    border: 1px solid #000000;
+    border-style: solid;
+    
+    
+}
+h1 {
+    color:blue;
+    font-size: 50px;
+    background-color: black;
+    text-align: left;
+}
+.MY{
+    color: white;
+}
+h2{
+    color:white;
+    font-size: 40px;
+    background-color: purple;
+    text-align: center;
+}
+h3{
+    color:navy;
+    font-size: 35px;
+    background-color: skyblue;
+    text-align: right;
+    text-decoration: underline;
+}
