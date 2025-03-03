@@ -1,0 +1,47 @@
+.heading{
+color: grey;
+font-size: 30px;
+font-family: sans-serif;
+text-align: center;
+}
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 20px;
+}
+.navi{
+    display: flex;
+    background-color: aqua;
+    justify-content:space-around;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+    
+
+}
+.body{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+    
+
+
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+    padding: 20px;
+
+}
+img{
+    height: 200px;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
