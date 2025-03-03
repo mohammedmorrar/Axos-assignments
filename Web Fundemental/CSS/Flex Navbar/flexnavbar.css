@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+    background-color: grey;
+    margin: 0px auto;
+    justify-content:space-between;
+}
+.nav-title{
+text-align: left;
+font-family: sans-serif;
+color: white;
+margin-left: 20px;
+align-items: center;
+}
+.nav-links{
+    display: flex;
+    margin-right:20px; 
+    align-items: center; 
+}
+a{
+    text-decoration: none; 
+    color: white;
+    padding: 10px;
+}
+ul{
+    list-style-type:none; 
+    
+}
+.btn{
+    color: white; 
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: aquamarine;
+    box-shadow: 2px 4px black;
+    margin-left: 12px;
+    
+}
