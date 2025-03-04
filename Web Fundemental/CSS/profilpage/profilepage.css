@@ -1,0 +1,363 @@
+nav{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+}
+.leftnav{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+h1{
+    color: white;
+    margin-left: 210px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between; 
+    list-style: none;
+    color: white; 
+}
+.btn{
+    color: white; 
+    font-size: 20px;
+    height: 30px;
+    width: 100px;
+    border: 2px solid #17a2b8;
+    border-radius: 5%;
+    background-color:#17a2b8;
+    margin-right: 200px;
+    /* position:absolute;
+    right: 70px; */
+}
+ul li{
+    margin: 20px;
+}
+section1{
+    margin-top: 30px;
+    position: absolute;
+    left: 320px;
+
+}
+.content{
+    height: 400px;
+    width: 500px;
+    border: 2px solid grey;
+    position: relative;
+    margin: 0 auto;
+}
+.divcontent-top{
+    background-color: #17a2b8;
+    height: 120px;
+    width: 500px;
+}
+.divcontent-bottom{
+    height: 280px;
+    width: 800 px;
+    background-color: white;
+}
+#userimg1{
+    border: 5px solid beige;
+    box-shadow: 0 4px 8px black;
+    height: 110px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+}
+.name{
+        font-family: sans-serif;
+  position: absolute;  
+  top: 200px;
+  left: 25px;
+}
+#map{
+    height: 25px;
+    width: 15px;
+    position: absolute;
+    bottom: 140px;
+    left: 30px; 
+}
+.location{
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 120px;
+    left: 60px; 
+}
+.paragraph{
+    position: absolute;
+    bottom: 70px;
+    left: 30px;
+}
+#gear{
+    height: 25px;
+    width: 20px;
+    position: absolute;
+    bottom: 25px;
+    left: 30px; 
+}
+.link{
+    position: absolute;
+    bottom: 25px;
+    left: 60px; 
+    color: #4d9ff7;
+}
+section2{
+    margin-top: 30px;
+    position: absolute;
+    left: 320px;
+    bottom: 0px;
+}
+.content2{
+    height: 200px;
+    width: 500px;
+    border: 2px solid grey;
+    position: relative;
+    margin: 0 auto;
+}
+.divcontent-top2{
+    background-color: gray; 
+    color: white;
+    height: 70px;
+    width: 500px;  
+}
+.Education{
+    color: white;
+    position: absolute;
+    bottom: 120px;
+    right: 320px; 
+}
+.divcontent-bottom2{
+    height: 150px;
+    width: 500 px;
+    background-color: white;
+}
+#date{
+color: gray;
+}
+
+p{
+    margin-left: 15px;
+}
+aside{
+    margin-top: 30px;
+    position: absolute;
+    right: 310px;
+    bottom: 565px;
+}
+.content3{
+    height: 170px;
+    width: 220px;
+    border: 2px solid grey;
+    position: relative;
+    margin: 0 auto;
+}
+.divcontent-top3{
+    background-color: gray;
+    color: white;
+    height: 60px;
+    width: 220px;
+}
+.divcontent-bottom3{
+    height: 110px;
+    width: 220px;
+    background-color: white;
+}
+#userimg2{
+    border: 2px solid beige;
+    height: 35px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+#userimg3{
+    border: 2px solid beige;
+    height: 35px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+.Connection{
+    color: white;
+    position: absolute;
+    top: 3px;
+    left: 45px;
+    font-size: 20px;
+    
+}
+.num{
+    color: black;
+    height: 25px;
+    width: 20px;
+    background-color: beige;
+    border: 2px solid gray;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 6px;
+    font-size: 20px; 
+    text-align: center;
+
+}
+#userimg4{
+    height: 35px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    right: 60px;
+}
+#userimg5{
+    height: 35px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+}
+.todd{
+    position: absolute;
+    top: 60px;
+    left: 30px; 
+}
+.phil{
+    position: absolute;
+    top: 110px;
+    left: 30px; 
+}
+#userimg6{
+    height: 35px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    right: 60px;
+}
+#userimg7{
+    height: 35px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    right: 30px;
+}
+#userimg8{
+    height: 35px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 85px;
+    left: 20px;
+}
+#userimg9{
+    height: 35px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 135px;
+    left: 20px;
+}
+#userimg10{
+    height: 35px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 185px;
+    left: 20px;
+}
+#userimg11{
+    height: 35px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 235px;
+    left: 20px;
+}
+.adrien{
+    position: absolute;
+    top: 75px;
+    left: 30px; 
+}
+.anne{
+    position: absolute;
+    top: 125px;
+    left: 30px; 
+}
+.alayne{
+    position: absolute;
+    top: 175px;
+    left: 30px; 
+}
+.arry{
+    position: absolute;
+    top: 225px;
+    left: 30px; 
+}
+.aside2{
+    margin-top: 30px;
+    position: absolute;
+    right: 310px;
+    bottom: 90px;
+}
+.content4{
+    height: 350px;
+    width: 220px;
+    border: 2px solid grey;
+    position: relative;
+    margin: 0 auto;
+}
+.divcontent-top4{
+    background-color: gray;
+    color: white;
+    height: 60px;
+    width: 220px;
+}
+.your{
+    color: white;
+    position: absolute;
+    top: 3px;
+    left: 45px;
+    font-size: 20px;
+}
+.num5{
+    color: black;
+    height: 20px;
+    width: 30px;
+    background-color: beige;
+    border: 1px solid gray;
+    border-radius: 50%;
+    position: absolute;
+    padding: 5px;
+    top: 0px;
+    left: 0px;
+    font-size: 20px; 
+    text-align: center; 
+}
+.divcontent-bottom4{
+    height: 250px;
+    width: 220px;
+    background-color: white;
+}
+.divcontent-footer4{
+    height: 40px;
+    width: 220px;
+    border: 1px solid gray;
+    
+}
+.view{
+    position: absolute;
+    bottom: 10px;
+    left: 30px; 
+}
+
+
+
